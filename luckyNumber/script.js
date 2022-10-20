@@ -8,7 +8,7 @@ btn.addEventListener('click', () => {
     let a = randnumber()
     if (a > 777) {
         alert("Number Exceeds as ur greed!!", randnumber(a))
-    } else if (a == 777 && a==999) {
+    } else if (a == 777 && a==999 && a==0) {
         console.log("Jackpot Hurray", randnumber(a))
     } else if (a < 777) {
         alert('Minimal Range!!!', randnumber(a))
