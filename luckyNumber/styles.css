@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcoral;
+}
+h2{
+    text-align: center;
+    color: #fff;
+}
+#container1{
+    position: relative;
+    left: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.roll{
+    position: relative;
+    left: 490px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+}
