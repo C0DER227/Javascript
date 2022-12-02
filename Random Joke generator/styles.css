@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+    color: black;
+}
+.container{
+    text-align: center;
+    margin: 66px auto;
+}
+#joke{
+    text-align: center;
+    padding-top: 10vh;
+    color: grey;
+}
+#btn{
+    width: 30vh;
+    height: 5vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: lavender;
+    color: grey;
+}
+.ftr{
+    text-align: center;
+
+}
